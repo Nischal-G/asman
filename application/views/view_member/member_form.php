@@ -1,29 +1,29 @@
 <div class="bg-contact3" style="background-image: url(<?=base_url('lib/images/form-modal/bg-01.jpg')?>);">
 		<div class="container-contact3">		
 			<div class="wrap-contact3" >
-				<form class="contact3-form validate-form" method="POST">
-					<span class="contact3-form-title">
+				<form method="POST" class="contact3-form validate-form">
+					<span class="contact3-form-title" action="/home/member">
 						Become a Member
 					</span>
 
 					
 					<div class="wrap-input3 validate-input" data-validate="Name is required">
-						<input class="input3" type="text" name="name" placeholder="Full Name">
+						<input class="input3" type="text" name="name" placeholder="Full Name" >
 						<span class="focus-input3"></span>
 					</div>
 
 					<div class="wrap-input3 validate-input" data-validate="Address is required">
 						<input class="input3" type="text" name="address" placeholder="Address">
-						<span class="focus-input3"></span>
+						<span class="focus-input3" ></span>
 					</div>
 
 					<div class="wrap-input3 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
 						<input class="input3" type="text" name="email" placeholder="Your Email">
-						<span class="focus-input3"></span>
+						<span class="focus-input3" ></span>
 					</div>
 
 					<div class="wrap-input3 validate-input" data-validate = "DOB is required">
-						<input class="input3" type="text" name="dob" placeholder="Date of Birth" onfocus="(this.type='date')" onfocusout="(this.type='text')">
+						<input class="input3" type="text" name="dob" placeholder="Date of Birth" onfocus="(this.type='date')" onfocusout="(this.type='text')" >
 						<span class="focus-input3"></span>
 					</div>
 
@@ -72,14 +72,14 @@
 
 					<div class="wrap-contact3-form-radio">
 						<div class="contact3-form-radio m-r-42">
-							<input class="input-radio3" id="radio1" type="radio" name="choice" value="say-hi" checked="checked">
+							<input class="input-radio3" id="radio1" type="radio" name="choice" value="unmarried" checked="checked">
 							<label class="label-radio3" for="radio1">
 								Unmarried / Single
 							</label>
 						</div>
 
 						<div class="contact3-form-radio">
-							<input class="input-radio3" id="radio2" type="radio" name="choice" value="get-quote">
+							<input class="input-radio3" id="radio2" type="radio" name="choice" value="married">
 							<label class="label-radio3" for="radio2">
 								Married
 							</label>
@@ -107,7 +107,7 @@
 					</div>
 
 					<div class="container-contact3-form-btn" align="center">
-						<button class="contact3-form-btn" name="memberSubmit">
+						<button type="submit" class="contact3-form-btn"  name="memberSubmit">
 							Submit
 						</button>
 					</div>
