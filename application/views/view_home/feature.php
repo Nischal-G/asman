@@ -9,7 +9,7 @@
 					<div class="feature-copy">
 						<h3>Become a Member</h3>
 						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						<p><a href="<?=base_url('member_form')?>">Learn more</a></p>
+						<p><a href="<?=base_url('/home/member/member_form')?>">Learn more</a></p>
 					</div>
 				</div>
 			</div>

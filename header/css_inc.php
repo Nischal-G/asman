@@ -19,4 +19,6 @@
 
 <link rel="stylesheet" href="<?=base_url('lib/css/util.css')?>">	
 
-<link rel="shortcut icon" href="<?=base_url('lib/images/form-modal')?>">
+<link rel="stylesheet" href="<?=base_url('lib/css/donation.css')?>">	
+
+<link rel="stylesheet" href="<?=base_url('lib/css/blog.css')?>">	
