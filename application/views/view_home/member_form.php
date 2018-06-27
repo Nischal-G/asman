@@ -1,7 +1,7 @@
 <div class="bg-contact3" style="background-image: url('images/bg-01.jpg');">
 		<div class="container-contact3">
 			<div class="wrap-contact3" >
-				<form class="contact3-form validate-form">
+				<form method="POST" class="contact3-form validate-form">
 					<span class="contact3-form-title">
 						Become a Member
 					</span>
@@ -108,7 +108,7 @@
 					</div>
 
 					<div class="container-contact3-form-btn" align="center">
-						<button class="contact3-form-btn">
+						<button name="memberSubmit" type="Submit" class="contact3-form-btn">
 							Submit
 						</button>
 					</div>

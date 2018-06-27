@@ -2,14 +2,14 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<div class="feature-left" onclick="location.href='<?=base_url('/home/member/member_form')?>';" style="cursor: pointer;">
+				<div class="feature-left" onclick="location.href='<?=base_url('/home/member')?>';" style="cursor: pointer;">
 					<span class="icon">
 						<i class="icon-profile-male"></i>
 					</span>
 					<div class="feature-copy">
 						<h3>Become a Member</h3>
 						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						<p><a href="<?=base_url('/home/member/member_form')?>">Learn more</a></p>
+						<p><a href="<?=base_url('/home/member')?>">Learn more</a></p>
 					</div>
 				</div>
 			</div>
