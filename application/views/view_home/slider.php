@@ -2,7 +2,7 @@
 	<div class="fh5co-overlay">
 		<!-- <img src="images/slider1.jpg"> -->
 	</div>
-	<div class="fh5co-cover text-center"  style="background-image: url(<?=base_url('lib/images/slider1.jpg')?>);">
+	<div class="fh5co-cover text-center"  style="background-image: url(<?=base_url('lib/images/slider5.jpg')?>);">
 		<div data-stellar-background-ratio="0.5">
 			<!-- <img src="images/slider1.jpg"> -->
 		</div>

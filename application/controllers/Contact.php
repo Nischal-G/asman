@@ -14,8 +14,27 @@ class Contact extends CI_Controller {
 
 	public function index()
 	{
-		$data['cat']=$this->CRUD->getNewsbyCatId();
-		$this->load->view('view_contact/contact_dashboard',$data);		
+		if (isset($_POST['contactUs'])) 
+		{
+			$contactUs['fullname']=$this->input->post('fname')." ".$this->input->post('lname');
+			$contactUs['email']=$this->input->post('email');
+			$contactUs['phone']=$this->input->post('phone');
+			$contactUs['message']=$this->input->post('message');
+
+			$this->CRUD->contactUs($contactUs);
+
+		}
+		else
+		{
+			$data['cat']=$this->CRUD->getNewsbyCatId();
+			$this->load->view('view_contact/contact_dashboard',$data);	
+		}
+			
+	}
+
+	public function map()
+	{
+		$this->load->view('view_contact/map_test');
 	}
 
 }

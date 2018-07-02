@@ -15,6 +15,13 @@ class CRUD extends CI_Model
 		return $q;
 	}
 
+	public function contactUs($data)
+	{
+		$sql = $this->db->set($data)->get_compiled_insert('sw_contact');
+		$q=$this->db->query($sql);
+		return $q;
+	}
+
 	public function newsHome()
 	{
 		$this->db->select('*'); 

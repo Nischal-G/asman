@@ -107,13 +107,12 @@
 					</div>
 
 					<div class="container-contact3-form-btn" align="center">
-						<button type="submit" class="contact3-form-btn"  name="memberSubmit">
+						<button type="submit" class="btn btn-primary"  name="memberSubmit">
 							Submit
 						</button>
-						<div class="container-contact3-form-btn" align="center">
-							<a href="<?=base_url('/home')?>" class="btn btn-primary">Go to Home</a>
-						</div>
-
+						<a type="submit" href="<?=base_url('/home')?>" class="btn btn-primary">
+							Go to Home
+						</a>
 					</div>
 				</form>
 			</div>

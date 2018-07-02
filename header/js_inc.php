@@ -30,5 +30,10 @@
 <script src="<?=base_url('lib/js/popper.min.js')?>"></script>
 
 <script src="<?=base_url('lib/js/form.js')?>"></script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6B4H7XPGS15CSjzkc7BdptN_Ls0tsQeA&callback=initMap">
+</script>
+
 <script src="<?=base_url('lib/js/contact.js')?>"></script>
-<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+
