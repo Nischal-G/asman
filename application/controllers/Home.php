@@ -62,12 +62,7 @@ class Home extends CI_Controller {
 			$addMem['spouseocc']=$this->input->post('spouseocc');
 			$addMem['message']=$this->input->post('message');
 
-			//$member_add=$this->CRUD->addMember($addMem);
-
-			 
-			$member_add=true;
-
-
+			$member_add=$this->CRUD->addMember($addMem);
 
 			if($member_add)
 			{

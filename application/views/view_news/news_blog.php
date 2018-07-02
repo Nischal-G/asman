@@ -10,8 +10,8 @@
         </div>
 
         <div class="col-md-8">
-          <h1 style="margin-top: 20px;"><?=ucfirst($ne['news_title'])?></h1><hr>
-          <p >Posted on <strong><?=$ne['news_date']?></strong>   at 12:00 PM</p><hr>
+          <h1 style="margin-top: 20px; font-size:50px;"><?=ucfirst($ne['news_title'])?></h1>
+          <p >Posted on <strong><?=$ne['news_date']?></strong></p><hr>
           <p class="lead"><?=$ne['news_venue']?></p>
           <p><?=$ne['news_objective']?></p>
         </div>

@@ -1,6 +1,7 @@
 <header id="fh5co-header-section" class="sticky-banner">
 	<div class="container">
 		<div class="nav-header">
+			
 			<!-- <a href="<?=base_url();?>" ><i></i></a> -->
 			<a href="<?=base_url('#home');?>" >
 				<img  src="<?=base_url('lib/images/flat_logo.png')?>" width="100px" >
@@ -22,7 +23,7 @@
                     </li>
                     <li><a href="<?=base_url('#gallery')?>">Gallery</a></li>
                     <li>
-						<a href="#" class="fh5co-sub-ddown">Projects</a>
+						<a href="<?=base_url('#projects')?>" class="fh5co-sub-ddown">Projects</a>
 						 <ul class="fh5co-sub-menu">
 						 	<?php foreach($cat->result_array() as $ca):?>
 						 	<li><a href="<?=base_url('news/project/').$ca['category_id']?>"><?=ucfirst($ca['category_name'])?></a></li>
@@ -39,6 +40,8 @@
 						</ul>
 					</li>
 					<li><a href="contact.html">Contact</a></li>
+
+
 				</ul>
 			</nav>
 		</div>

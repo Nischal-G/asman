@@ -21,7 +21,7 @@
 				$this->load->view('view_home/message');
 				$this->load->view('view_home/gallery');
 				$this->load->view('view_home/philanthropist');
-				$this->load->view('view_home/project.php');
+				//$this->load->view('view_home/project.php');
 				$this->load->view('view_home/news');
 				$this->load->view('inc_view/footer');
 			 ?>

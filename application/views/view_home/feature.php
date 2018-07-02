@@ -9,7 +9,7 @@
 						</span>
 						<div class="feature-copy">
 							<h3>Become a Member</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+							<p>Join the exciting community for Marians and help us make difference.</p>
 							<p><a href="<?=base_url('/home/member')?>">Learn more</a></p>
 						</div>
 					</div>
@@ -21,7 +21,7 @@
 						</span>
 						<div class="feature-copy">
 							<h3>Become a volunteer</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+							<p>Extend the helping hand for humanitarian work of ASMAN and partner organization.</p>
 							<p><a href="#">Learn More</a></p>
 						</div>
 					</div>
@@ -33,7 +33,7 @@
 						</span>
 						<div class="feature-copy">
 							<h3>Make a Donation</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+							<p>Contribute in the impact we create</p>
 							<p><a href="<?=base_url('/home#popup')?>">Learn More</a></p>
 						</div>
 					</div>
@@ -44,7 +44,7 @@
 		<div class="popup" id="popup">
 		    <div class="popup-inner" style="margin-top: 100px">
 		      <div class="popup__photo">
-		        <img src="<?=base_url('lib/images/form-modal/image2.JPG')?>" alt="">
+		        <img src="<?=base_url('lib/images/form-modal/image.JPG')?>" alt="">
 		       <!--  https://images.unsplash.com/photo-1515224526905-51c7d77c7bb8?ixlib=rb-0.3.5&s=9980646201037d28700d826b1bd096c4&auto=format&fit=crop&w=700&q=80 -->
 		      </div>
 		      <div class="popup__text">

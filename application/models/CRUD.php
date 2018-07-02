@@ -10,7 +10,7 @@ class CRUD extends CI_Model
 
 	public function addMember($data)
 	{
-		$sql = $this->db->set($data)->get_compiled_insert('as_member');
+		$sql = $this->db->set($data)->get_compiled_insert('sw_member');
 		$q=$this->db->query($sql);
 		return $q;
 	}
