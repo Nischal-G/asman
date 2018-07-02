@@ -30,3 +30,5 @@
 <script src="<?=base_url('lib/js/popper.min.js')?>"></script>
 
 <script src="<?=base_url('lib/js/form.js')?>"></script>
+<script src="<?=base_url('lib/js/contact.js')?>"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>

@@ -25,4 +25,6 @@
 
 <link rel="stylesheet" href="<?=base_url('lib/css/blog.css')?>">
 
-<link rel="stylesheet" href="<?=base_url('lib/css/gallery.css')?>">	
+<link rel="stylesheet" href="<?=base_url('lib/css/gallery.css')?>">
+
+<link rel="stylesheet" href="<?=base_url('lib/css/contact.css')?>">	
