@@ -66,16 +66,16 @@ class Home extends CI_Controller {
 
 			if($member_add)
 			{
-				$sender_email = 'nischal.ghimire100@gmail.com'; // Email 
-				$user_password = 'csitthirdsem100'; //Email password
-				$receiver_email = $sender_email;//'aryan@whitehouse.edu.np';
+				$sender_email = 'webmaster@asman.net.np'; // Email 
+				$user_password = 'YQzK*$Nm?+-L'; //Email password
 				$replyto='aryan@whitehouse.edu.np';
+				$receiver_email = $replyto;//'aryan@whitehouse.edu.np';
 				$username = 'ASMAN';
 				$subject="Member Request|ASMAN";
 				
 				// Configure email library
 				$config['protocol'] = 'smtp';
-				$config['smtp_host'] = 'ssl://smtp.googlemail.com';
+				$config['smtp_host'] = 'ssl://mail.asman.net.np';
 				$config['smtp_port'] = 465;
 				$config['smtp_user'] = $sender_email;
 				$config['smtp_pass'] = $user_password;
