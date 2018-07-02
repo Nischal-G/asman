@@ -1,6 +1,6 @@
 <div id="message">
 	<div id="fh5co-feature-product" class="fh5co-section-gray">
-		<div class="">
+		<div class="" style="margin-bottom: -50px">
 			<div class="row">
 				<div class="col-md-12 text-center heading-section">
 					<h3>Message from the President</h3>

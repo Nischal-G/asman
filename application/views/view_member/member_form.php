@@ -110,6 +110,10 @@
 						<button type="submit" class="contact3-form-btn"  name="memberSubmit">
 							Submit
 						</button>
+						<div class="container-contact3-form-btn" align="center">
+							<a href="<?=base_url('/home')?>" class="btn btn-primary">Go to Home</a>
+						</div>
+
 					</div>
 				</form>
 			</div>

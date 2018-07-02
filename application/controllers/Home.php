@@ -6,13 +6,18 @@ class Home extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
+		$this->load->model('CRUD');
 		$this->output->set_header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
 		$this->output->set_header('Pragma: no-cache');
 	}	
 
 	public function index()
 	{
-		$this->load->view('view_home/home_dashboard');
+		$data['news']=$this->CRUD->newsHome();
+		$data['cat']=$this->CRUD->getNewsbyCatId();
+		$data['cname']=$this->CRUD->getNewsbyCatId();
+		$this->load->view('view_home/home_dashboard',$data);
+
 		//$this->load->view('welcome_message');
 	}
 
@@ -23,7 +28,7 @@ class Home extends CI_Controller {
 		{
 			$ms="Please provide your";
 			$this->form_validation->set_message('name', $ms.'Full Name');
-			$this->form_validation->set_message('address', $ms.'adress');
+			$this->form_validation->set_message('address', $ms.'address');
 			$this->form_validation->set_message('email', $ms.'email');
 			$this->form_validation->set_message('dob', $ms.'birth date');
 			$this->form_validation->set_message('sex', $ms.'gender');
@@ -66,8 +71,8 @@ class Home extends CI_Controller {
 
 			if($member_add)
 			{
-				$sender_email = ''; // Email 
-				$user_password = ''; //Email password
+				$sender_email = 'nischal.ghimire100@gmail.com'; // Email 
+				$user_password = 'csitthirdsem100'; //Email password
 				$receiver_email = $sender_email;//'aryan@whitehouse.edu.np';
 				$replyto='aryan@whitehouse.edu.np';
 				$username = 'ASMAN';
@@ -111,12 +116,13 @@ class Home extends CI_Controller {
 		}
 		else
 		{
-			$this->load->view('view_member/member_dashboard');
+			$data['cat']=$this->CRUD->getNewsbyCatId();
+			$this->load->view('view_member/member_dashboard',$data);
 		}
 	}
 
-	public function news()
-	{
-		$this->load->view('view_news/news_dashboard');
-	}
+	// public function news()
+	// {
+	// 	$this->load->view('view_news/news_dashboard');
+	// }
 }

@@ -1,0 +1,17 @@
+
+.grayh:hover{
+    filter: none;
+  	-webkit-filter: grayscale(0.2);
+  	transform: scale(1.01);
+}
+
+.grayh {
+  	/*filter: gray;*/
+  	-webkit-filter: grayscale(0.5);  /*Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .1s ease-in-out;  
+}
+
+.span-size{
+	color: #D3D3D3;
+	 font-size: 20px;
+}

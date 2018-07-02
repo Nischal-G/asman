@@ -14,5 +14,52 @@ class CRUD extends CI_Model
 		$q=$this->db->query($sql);
 		return $q;
 	}
+
+	public function newsHome()
+	{
+		$this->db->select('*'); 
+	  	$this->db->from('sw_news');
+	  	$this->db->order_by("news_id", "DESC");
+		$this->db->limit(3,0);
+		$query = $this->db->get();
+	  	return $query;
+	}
+
+	public function getNews()
+	 {
+	  $this->db->select('*'); 
+	  $this->db->from('sw_news');
+	  $this->db->order_by("news_id", "DESC");
+	  $query = $this->db->get();
+	  return $query;
+	 }
+
+	public function getNewsbyCat($id)
+	{
+		$this->db->select('*'); 
+	  	$this->db->from('sw_news');
+	  	$this->db->where('category_id',$id);
+	  	$this->db->order_by("news_id", "DESC");
+	  	$query = $this->db->get();
+	  	return $query;
+	}
+
+	public function getNewsbyId($id)
+	{
+		$this->db->select('*'); 
+	  	$this->db->from('sw_news');
+	  	$this->db->where('news_id',$id);
+	  	$this->db->order_by("news_id", "DESC");
+	  	$query = $this->db->get();
+	  	return $query;
+	}
+
+	public function getNewsbyCatId()
+	{
+		$this->db->select('*'); 
+	  	$this->db->from('sw_category');
+	  	$query = $this->db->get();
+	  	return $query;
+	}
 }
 ?>

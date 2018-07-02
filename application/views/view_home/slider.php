@@ -6,10 +6,10 @@
 		<div data-stellar-background-ratio="0.5">
 			<!-- <img src="images/slider1.jpg"> -->
 		</div>
-		<div class="desc animate-box">
+		<div class="desc animate-box btn-slider">
 			<h2><strong>Together</strong> we can make a <strong>Difference</strong></h2>
 			<span>Together we can bring about positive changes <a href="#" target="_blank" class="fh5co-site-name"></a></span>
-			<span><a class="btn btn-primary btn-lg" href="#">Become a Member</a></span>
+			<span><a class="btn btn-primary btn-lg" href="<?=base_url('/home/member')?>">Become a Member</a></span>
 		</div>
 	</div>
 </div>

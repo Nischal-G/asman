@@ -1,3 +1,5 @@
+
+
 <link rel="shortcut icon" href="<?=base_url('lib/images/favicon.png')?>">
 <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'> -->	
 <!-- Animate.css -->
@@ -21,4 +23,6 @@
 
 <link rel="stylesheet" href="<?=base_url('lib/css/donation.css')?>">	
 
-<link rel="stylesheet" href="<?=base_url('lib/css/blog.css')?>">	
+<link rel="stylesheet" href="<?=base_url('lib/css/blog.css')?>">
+
+<link rel="stylesheet" href="<?=base_url('lib/css/gallery.css')?>">	

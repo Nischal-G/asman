@@ -4,9 +4,9 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
  */
 
-body {
+/*body {
   padding-top: 54px;
-}
+}*/
 
 .news_image{
 	width: 100%;
@@ -14,9 +14,16 @@ body {
 	margin-top: 20px;
 }
 
+.news-sec:: after{
+	content: '';
+	display: block;
+	background-color: black;
+	height: 5px;
+	width: 100%
+}
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   body {
     padding-top: 56px;
   }
-}
+}*/

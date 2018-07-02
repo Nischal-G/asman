@@ -14,6 +14,7 @@ class Team extends CI_Controller {
 	public function index()
 	{
 		$data['team']=$this->CRUD->team();
+		$data['cat']=$this->CRUD->getNewsbyCatId();
 		$this->load->view('view_team/team_home',$data);
 	}
 }
